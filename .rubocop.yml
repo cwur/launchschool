@@ -1,0 +1,9 @@
+AllCops:
+  DisplayCopNames: true
+  ExtraDetails: true
+  DisplayStyleGuide: true
+  StyleGuideBaseURL: https://rubystyle.guide/
+  NewCops: enable
+
+Style/FrozenStringLiteralComment:
+  Enabled: false

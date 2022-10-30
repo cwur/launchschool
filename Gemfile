@@ -2,6 +2,8 @@
 
 source 'https://rubygems.org'
 
-gem 'rubocop'
+gem 'debug'
 gem 'readapt'
+gem 'rubocop'
+gem 'ruby-debug-ide'
 gem 'solargraph'
