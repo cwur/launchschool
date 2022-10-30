@@ -14,7 +14,7 @@ contacts = { 'Joe Smith' => {}, 'Sally Johnson' => {} }
 person = {}
 person = person.merge(contacts)
 person.each do |name, _datum|
-  first_name, _last_name = name.split(' ')
+  first_name, _last_name = name.split
 
   datum_filter = contact_data.filter do |contact|
     email = contact[0].downcase

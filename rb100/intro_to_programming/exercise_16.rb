@@ -12,7 +12,7 @@ contacts = { 'Joe Smith' => {}, 'Sally Johnson' => {} }
 #  }
 
 contacts.each do |name, _data|
-  first_name, _last_name = name.split(' ')
+  first_name, _last_name = name.split
 
   data = contact_data.filter do |contact|
     email = contact[0].downcase

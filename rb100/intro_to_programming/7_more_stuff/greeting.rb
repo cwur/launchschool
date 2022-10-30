@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 def space_out_letters(person)
-  person.split('').join(' ')
+  person.chars.join(' ')
 end
 
 def greet(person)
